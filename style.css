@@ -9,7 +9,7 @@
     --yellow: #E1D733;
     --dark-blue: #1D2D7C;
     --light-blue: #dfeaee;
-    --input-text-grey: #707070;
+    --light-orange: #fbf6ea;
     --input-icon-grey: #D4D4D4;
     --item-bgn-grey: #EFEFEF;
     --sorted-text-grey: #A6A6A6;
@@ -77,7 +77,9 @@ header {
 /* MAIN */
 
 main {
-    background-color: var(--light-blue);
+    width: 100%;
+    height: 100vh;
+    background-color: var(--light-orange);
     margin-top: 10px;
     padding-top: 20px;
 }
@@ -85,6 +87,41 @@ main {
 main h2 {
     text-align: center;
     font-size: 3rem;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.section__container {
+    margin: 2rem 0;
+    width: 70%;
+    background-color: var(--light-blue);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.figure__container {
+    width: 300px;
+    background-color: var(--white);
+    box-shadow: 4px 3px 17px 5px rgba(0,0,0,0.35);
+    border-radius: 15px;
+}
+
+.figure__container figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.figure__container figure img {
+    width: 250px;
 }
 
 
