@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Raquel Illerias">
+    <link rel="stylesheet" href="style.css">
     <title>Pokepidia: Eevee</title>
 </head>
 <body>
     <header>
-        <div>
-            <img src="./assets/pokeball.svg" alt="Image of a Pokeball to catch and store your Pokemon">
+        <div class="header__container">
+            <img class="header__container-img" src="./assets/pokeball.svg" alt="Image of a Pokeball to catch and store your Pokemon">
             <h1>Pokepidia</h1>
         </div>        
     </header>
@@ -18,46 +19,71 @@
         <div>
             <!-- Main Eevee section -->
             <section>
-                <div>
-                    <div>
+                <div class="section__container">
+                    <div class="figure__container">
                         <figure>
                             <img src="./assets/eevee.png" alt="Image of Eevee">            
                         </figure>
                     </div>
-                    <div>
-                        <h3>Pokedex data</h3>
-                        <div>
+                    <div class="pokemon__info-container">
+                        <div class="pokemon__info-wrapper">                            
+                        <h3>Pokedex data</h3>   
+                        <div class="pokemon__data-container">                    
                         <ul>
-                            <li>National №</li>
-                            <li>Type</li>
-                            <li>Species</li>
-                            <li>Height</li>
-                            <li>Weight</li>
-                            <li>Abilities</li>
+                            <li>
+                                <p class="title">National N</p>
+                                <p>0133</p>
+                            </li>
+                            <li>
+                                <p class="title">Type</p>
+                                <p>NORMAL</p>
+                            </li>
+                            <li>
+                                <p class="title">Species</p>
+                                <p>Evolution Pokémon</p>
+                            </li>
+                            <li>
+                                <p class="title">Height</p>
+                                <p>0.3 m (1'00″)</p>
+                            </li>
+                            <li>
+                                <p class="title">Weight</p>
+                                <p>6.5 kg (14.3 lbs)</p>
+                            </li>
+                            <li>
+                                <p class="title">Abilities</p>
+                                <p>Run away, adaptability</p>
+                            </li>                            
                         </ul>
-                        <ul>
-                            <li>0133</li>
-                            <li>NORMAL</li>
-                            <li>Evolution Pokémon</li>
-                            <li>0.3 m (1'00″)</li>
-                            <li>6.5 kg (14.3 lbs)</li>
-                            <li>Run away, adaptability, anticipation (hidden ability)</li>
-                        </ul>
+                    </div> 
+                    </div>
+                    <div class="pokemon__info-wrapper"> 
                         <h3>Training</h3>
+                        <div class="pokemon__data-container"> 
                         <ul>
-                            <li>EV yield</li>
-                            <li>Catch rate</li>
-                            <li>Base Friendship</li>
-                            <li>Base Exp.</li>
-                            <li>Growth Rate</li>
+                            <li>
+                                <p class="title">EV yield</p>
+                                <p>1 Sp. Def</p>
+                            </li>
+                            <li>
+                                <p class="title">Catch rate</p>
+                                <p>45 (5.9% with PokéBall, full HP)</p>
+                            </li>
+                            <li>
+                                <p class="title">Base Friendship</p>
+                                <p>50 (normal)</p>
+                            </li>
+                            <li>
+                                <p class="title">Base Exp.</p>
+                                <p>5</p>
+                            </li>
+                            <li>
+                                <p class="title">Growth Rate</p>
+                                <p>Medium Fast</p>
+                            </li>
                         </ul>
-                        <ul>
-                            <li>1 Sp. Def</li>
-                            <li>45 (5.9% with PokéBall, full HP)</li>
-                            <li>50 (normal)</li>
-                            <li>5</li>
-                            <li>Medium Fast</li>
-                        </ul>
+                        </div>
+                    </div>
                     </div>                                  
                     </div>
                 </div>
