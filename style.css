@@ -78,5 +78,20 @@ header {
 
 main {
     background-color: var(--light-blue);
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+main h2 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+
+/* FOOTER */
+
+footer {
+    padding: 20px 0;
+    text-align: center;
 }
 
